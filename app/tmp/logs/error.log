@@ -1,0 +1,24 @@
+2020-03-17 11:59:16 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/view
+Stack Trace:
+#0 /home/mcolomera/Downloads/blog_cake/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mcolomera/Downloads/blog_cake/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/mcolomera/Downloads/blog_cake/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/mcolomera/Downloads/blog_cake/cakephp/index.php(41): require('/home/mcolomera...')
+#4 {main}
+2020-03-17 12:01:03 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/view/1
+Stack Trace:
+#0 /home/mcolomera/Downloads/blog_cake/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mcolomera/Downloads/blog_cake/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /home/mcolomera/Downloads/blog_cake/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/mcolomera/Downloads/blog_cake/cakephp/index.php(41): require('/home/mcolomera...')
+#4 {main}
